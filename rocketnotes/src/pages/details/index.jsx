@@ -1,4 +1,5 @@
 import { Container } from './styles.js'
+import { Button } from '../../components/button/index.jsx'
 
 export function Details() {
 
@@ -6,6 +7,10 @@ export function Details() {
     <Container>
       <h1>Hello World</h1>
       <p>Rodrigo Braz</p>
+
+      <Button title="Login" loading />
+      <Button title="Cadastrar"/>
+      <Button title="Voltar"/>
     </Container>
   )
   
