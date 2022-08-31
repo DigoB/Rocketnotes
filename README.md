@@ -29,6 +29,10 @@ Project created during Rocketseat Explorer program, it can be used to save annot
   npm install
 ```
 
+You will see that the folder node_modules will be downloaded <br> <br>
+![Captura de tela de 2022-08-31 10-22-39](https://user-images.githubusercontent.com/60852021/187705263-de8d92cb-64f3-4d11-beac-cb0fe8775f7d.png)
+
+
  And this command to run the project:
 
  ```bash
@@ -39,7 +43,6 @@ Project created during Rocketseat Explorer program, it can be used to save annot
   ```bash
   localhost:5173
 ```
-
 
  
 ## Routes
