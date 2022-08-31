@@ -17,23 +17,23 @@ export function New() {
             <main>
                 <Form>
                     <header>
-                        <h1>Criar Nota</h1>
-                        <Link to="/">Voltar</Link>
+                        <h1>New Note</h1>
+                        <Link to="/">Back</Link>
 
                     </header>
 
                     <Input 
-                        placeholder="Título"
+                        placeholder="Title"
                     />
 
-                    <Textarea placeholder="Observações" />
+                    <Textarea placeholder="Other informations" />
 
-                    <Section title="Links Úteis">
+                    <Section title="Usefull links">
                         <NoteItem value="https://rocketseat.com.br"/>
                         <NoteItem isNew placeholder="Novo Link" />
                     </Section>
 
-                    <Section title="Marcadores">
+                    <Section title="Tags">
 
                         <div className="tags">
                             <NoteItem value="react"/>
@@ -42,7 +42,7 @@ export function New() {
 
                     </Section>
 
-                    <Button title="Salvar" />
+                    <Button title="Save" />
 
 
                 </Form>

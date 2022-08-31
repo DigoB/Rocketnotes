@@ -20,7 +20,7 @@ export function Profile() {
                 <Avatar>
                     <img 
                         src="https://www.github.com/DigoB.png"
-                        alt="Foto do usuário"
+                        alt="User Photo"
                     />
 
                     <label htmlFor="avatar">
@@ -30,7 +30,7 @@ export function Profile() {
                 </Avatar>
 
                 <Input
-                    placeholder="Nome"
+                    placeholder="Name"
                     type="text"
                     icon={FiUser}
                 />
@@ -42,18 +42,18 @@ export function Profile() {
                 />
 
                 <Input
-                    placeholder="Senha Atual"
+                    placeholder="Current Password"
                     type="password"
                     icon={FiLock}
                 />
 
                 <Input
-                    placeholder="Nova Senha"
+                    placeholder="New Password"
                     type="password"
                     icon={FiLock}
                 />
 
-                <Button title="Salvar" />
+                <Button title="Save" />
 
             </Form>
         </Container>

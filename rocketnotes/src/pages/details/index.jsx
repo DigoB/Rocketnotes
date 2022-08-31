@@ -14,26 +14,26 @@ export function Details() {
       <main>
         <Content>
 
-          <ButtonText title="Excluir nota" />
+          <ButtonText title="Delete note" />
 
           <h1>
-            Introdução ao React
+            Introduction to React
           </h1>
 
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eius corrupti saepe, porro unde velit officiis molestias perferendis accusamus repellat, voluptas iste quis nisi deserunt eaque, ad vel vero nulla sunt reiciendis autem error aut! Voluptatibus est quod voluptatem odit aut, eos velit rem iste dolore harum maiores reiciendis iusto in repellendus dolores illo consectetur. Aspernatur, voluptas asperiores harum beatae animi illum. Atque autem aperiam vitae cumque maiores accusamus repellendus itaque facere! Reiciendis voluptates mollitia obcaecati impedit unde? Odio omnis quibusdam cumque ipsa delectus suscipit error nisi iste, inventore vel numquam voluptate amet consequatur nihil quas dolorum excepturi. Ab, soluta!</p>
 
-          <Section title="Links Úteis">
+          <Section title="Usefull links">
             <Links>
               <li><a href="https://www.github.com/DigoB" target="_blank">https://github.com/DigoB</a></li>
             </Links>
           </Section>
 
-          <Section title="Marcadores">
+          <Section title="Tags">
             <Tag title="Express" />
             <Tag title="NodeJs" />
           </Section>
 
-          <Button title="Voltar"/>
+          <Button title="Back"/>
 
         </Content>
       </main>

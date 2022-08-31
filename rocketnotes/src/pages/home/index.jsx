@@ -17,18 +17,18 @@ export function Home() {
             <Header />
 
             <Menu>
-                <li> <ButtonText title="Todos" isActive /> </li>
+                <li> <ButtonText title="All" isActive /> </li>
                 <li> <ButtonText title="React"/> </li>
                 <li> <ButtonText title="Nodejs"/> </li>
             </Menu>
 
             <Search>
-                <Input placeholder="Pesquisar pelo título" icon={FiSearch}/>
+                <Input placeholder="Search by title" icon={FiSearch}/>
 
             </Search>
 
             <Content>
-                <Section title="Minhas Notas">
+                <Section title="My notes">
 
                     <Note data={{
                         title: 'React',
@@ -76,7 +76,7 @@ export function Home() {
             </Content>
 
             <NewNote to="/new">
-                Criar Nota
+                Create Note
                 <FiPlus />
 
             </NewNote>
