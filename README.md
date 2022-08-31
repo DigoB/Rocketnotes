@@ -21,7 +21,7 @@ Project created during Rocketseat Explorer program, it can be used to save annot
 
 ## Installation
 
- Need to have node installed to run the project.
+ Need to have npm installed to run the project.
  
  Then you must open a terminal in the root folder and run this command:
 
